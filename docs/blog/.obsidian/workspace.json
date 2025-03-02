@@ -20,8 +20,33 @@
               "icon": "lucide-file",
               "title": "cursor-guide"
             }
+          },
+          {
+            "id": "3b15bbd381596417",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.6"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.7.6"
+            }
+          },
+          {
+            "id": "f474e6140d4643c2",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.7"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -40,7 +65,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -139,10 +165,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ai/cursor-guide.md"
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "cursor-guide 的大纲"
+              "title": "大纲"
             }
           }
         ],
@@ -162,7 +190,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "4356ccb312dc0979",
+  "active": "f474e6140d4643c2",
   "lastOpenFiles": [
     "clip/2. 高效找素材.md",
     "ai/cursor-guide.md",
