@@ -1,14 +1,20 @@
+import lightbox from "vitepress-plugin-lightbox";
+
 export default {
-  title: `Reumy 的个人小站`,
+  title: `Luke 的个人小站`,
   description: "一个前端开发者",
   themeConfig: {
+    outline: {
+      level: [2, 3, 4], // 显示 h2, h3 和 h4 标题
+      label: '大纲' // 可选：自定义右侧大纲的标题
+    },
     nav: [
       { text: "主页", link: "/" },
       { text: "博客", link: "/blog/" },
     ],
     footer: {
       message: "Released under the MIT License.",
-      copyright: "Copyright © 2019-present Reumy",
+      copyright: "Copyright © 2019-present Luke",
     },
     sidebar: {
       "/blog/": [
@@ -328,6 +334,13 @@ export default {
           ],
         },
       ],
+    },
+  },
+  cleanUrls: true,
+  markdown: {
+    config: (md) => {
+      // Use lightbox plugin
+      md.use(lightbox, {});
     },
   },
   ignoreDeadLinks: true,

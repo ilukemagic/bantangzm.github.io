@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "types": ["vitepress/client"],
+    "outDir": "./dist"
+  },
+  "include": ["docs/.vitepress/**/*"]
+}
