@@ -44,9 +44,21 @@
               "icon": "lucide-book-up",
               "title": "Release Notes 1.8.7"
             }
+          },
+          {
+            "id": "8d7753fb58c4493d",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.9"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.9"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -190,7 +202,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "f474e6140d4643c2",
+  "active": "8d7753fb58c4493d",
   "lastOpenFiles": [
     "frontend/case/scale-hover.md",
     "clip/2. 高效找素材.md",
